@@ -3,7 +3,7 @@ muban.mxpro.二级.tabs = '#y-playList&&.tab-item';
 var rule = {
     title:'omofun动漫',
     模板:'mxpro',
-    host:'http://www.omofun.top',
+    host:'http://www.omofun.in',
     // url:'/index.php/vod/show/id/fyclass/page/fypage.html',
     url:'/index.php/vod/show/id/fyclassfyfilter.html',
     filterable:1,//是否启用分类筛选,
