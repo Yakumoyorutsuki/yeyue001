@@ -4,8 +4,8 @@ var rule={
 	// host:'https://www.iyxdm.com',
 	host:'https://www.iyxdm.com',
 	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src = jsp.pdfh(html,"p:eq(0)&&a&&Text");print(src);HOST=src',//网页域名根动态抓取js代码。通过HOST=赋值
-	// url:'/category.html?channel=17&totalresult=3999&pageno=167',
-	url:'/category.html?channel=17&totalresult=3999&pageno=167',
+	// url:'/category.html?channel=17&totalresult=3999',
+	url:'/category.html',
 	filterable:1,//是否启用分类筛选,
 	filter_url:'&{{fl.by or "orderby=pubdate"}}&{{fl.year}}&{{fl.area}}&{{fl.sta}}&{{fl.class}}',
 	filter: {
