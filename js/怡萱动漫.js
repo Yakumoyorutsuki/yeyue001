@@ -3,8 +3,9 @@ var rule={
 	title:'怡萱动漫',
 	// host:'http://www.iyxdm.com',
 	host:'http://www.iyxdm.com',
-	// url:'/category.html?channel=17&totalresult=3999&pageno=fypage',
-	url:'/category.html?channel=17&pageno=fypage',
+	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src = jsp.pdfh(html,"p:eq(0)&&a&&Text");print(src);HOST=src',//网页域名根动态抓取js代码。通过HOST=赋值
+        // url:'/category.html?channel=17&zhonglei=fyclass&orderby=pubdate&totalresult=2999&pageno=fypage',
+	url:'/category.html?channel=17&zhonglei=fyclassfyfilter&pageno=fypage',
 	filterable:1,//是否启用分类筛选,
 	filter_url:'&{{fl.by or "orderby=pubdate"}}&{{fl.year}}&{{fl.area}}&{{fl.sta}}&{{fl.class}}',
 	filter: {
