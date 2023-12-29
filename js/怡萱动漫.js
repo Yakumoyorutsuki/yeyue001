@@ -1,8 +1,8 @@
 // 发布页 https://acgfans.org/pub.html
 var rule={
 	title:'怡萱动漫',
-	// host:'https://yxdm.tv',
-	host:'https://www.iyxdm.com/',
+	// host:'https://www.iyxdm.com',
+	host:'https://yxdm.tv',
 	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src = jsp.pdfh(html,"p:eq(0)&&a&&Text");print(src);HOST=src',//网页域名根动态抓取js代码。通过HOST=赋值
 	// url:'/category.html?channel=17&zhonglei=fyclass&orderby=pubdate&totalresult=2999&pageno=fypage',
 	url:'/category.html?channel=17&zhonglei=fyclassfyfilter&pageno=fypage',
