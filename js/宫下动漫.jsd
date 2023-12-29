@@ -1,7 +1,7 @@
 var rule = {
     title: '宫下动漫',
     模板:'短视2',
-    host: 'https://arlnigdm.com',
+    host: 'https://gxdm01.org/',
     homeUrl:'/label/rank.html',
 	url: '/index.php/api/vod#type=fyclass&page=fypage',
     class_name:'TV动画&剧场版',
