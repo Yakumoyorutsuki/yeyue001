@@ -1,6 +1,7 @@
 var rule={
 	title:'妮可动漫',
-	host:'http://www.nicotv.me',
+	// host:'http://www.nicotv.wtf',
+	host:'http://www.nicotv.wtf/',
 	url:'/video/fyclass/fyfilter.html',
 	filterable:1,//是否启用分类筛选,
 	filter_url:'{{fl.class}}-{{fl.area}}-{{fl.year}}----{{fl.by}}-fypage',
